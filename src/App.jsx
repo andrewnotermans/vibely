@@ -1,15 +1,18 @@
 // import { useState } from 'react'
 
-import './App.css'
+import Dashboard from './pages/Dashboard'
+
+const mockUser = {
+  name: "Alex",
+  interests: ["Cycling", "Parties", "Coding"]
+};
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Dashboard />
     </>
   )
 }
